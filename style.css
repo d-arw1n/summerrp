@@ -122,6 +122,12 @@ html{
 }
 
 
+body {
+
+    background: #1d1d1d;
+    
+    }
+
 .nav-link{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -140,8 +146,8 @@ html{
 #discord {
     font-family: 'Radwave Demo', sans-serif;
     border: 0cap 5px #e07a04;
-    color: rgb(44, 44, 44);
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(68, 68, 68);
     margin-top: 5px;
     padding: 13px 35px;
     border-radius: 100px;
@@ -149,9 +155,9 @@ html{
 }
 
 #discord:hover {
-    color: rgb(255, 255, 255);
-    border: solid 4px rgb(214, 214, 214);
-    background-color: rgb(44, 44, 44);
+    color: rgb(48, 48, 48);
+    border: solid 4px rgb(65, 65, 65);
+    background-color: rgb(255, 255, 255);
     transition: ease-in-out 0.2s;
 }
 
@@ -177,6 +183,10 @@ html{
 .info h1{
     margin-top: 40%;
     transform: translateY(-15%);
+}
+
+.info {
+    color: #000000;
 }
 
 .info h1 {
@@ -220,6 +230,10 @@ html{
     color: #fff;
 }
 
+
+
+
+
 #info2 .svg-inline--fa {
     font-size: 70px;
     margin: 20px;
@@ -247,6 +261,14 @@ html{
     font-family: 'Radwave Demo', sans-serif;
     font-size: 35px;
     margin: 10% 0%;
+    color: #fff;
+
+
+}
+
+#about .row, p{
+    color: #fff;
+
 
 }
 
@@ -296,12 +318,14 @@ html{
 
 #galerie {
     height: 650px;
+    background: #1d1d1d;
 }
 
 #galerie h2 {
     font-family: 'Radwave Demo', sans-serif;
     font-size: 50px;
     margin: 50px 0;
+    color: #fff;
 }
 
 #galerie .item {
@@ -319,7 +343,13 @@ html{
     font-family: 'Radwave Demo', sans-serif;
     font-size: 50px;
     margin: 10% 0 5% 0;
+    color: #fff;
 }
+
+#team{
+    background-color: #1d1d1d;
+}
+
 
 #team img {
     margin-left: auto;
@@ -329,7 +359,7 @@ html{
     cursor: pointer;
     transition: all ease-in-out .2s;
     border-radius: 100%;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.534);
+    box-shadow: 1px 1px 20px rgba(255, 255, 255, 0.534);
 }
 
 #team img:hover {
@@ -343,12 +373,14 @@ html{
 #team h4 {
     font-family: 'Radwave Demo', sans-serif;
     margin: 40px 0 5px 0;
+    color: #fff;
 }
 
 #team p {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 16px;
+    color: #fff;
 }
 
 /* yayıncı */ 
