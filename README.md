@@ -3,4 +3,4 @@ LSPD website for the roleplay server : Vision
 
 https://www.lspd-vision.gq/
 
-Using Tailwind CSS
+Using Tailwind CSSs
